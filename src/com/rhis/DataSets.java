@@ -86,39 +86,39 @@ public class DataSets {
             Map.entry(CHATTOGRAM_TEXT, 15));
 
     public static final HashMap<String, String> serverEndpoints = new HashMap<>() {{
-        put(DataSets.HABIGANJ_TEXT,"http://mamoni.net:8080/eMIS_36/");
-        put(DataSets.LAKSHMIPUR_TEXT,"http://119.148.43.41:8080/eMIS_51/");
-        put(DataSets.JHALOKATHI_TEXT,"http://119.148.43.42:8080/eMIS_42/");
-        put(DataSets.NOAKHALI_TEXT,"http://119.148.43.43:8080/eMIS_75/");
-        put(DataSets.NATORE_TEXT,"http://emis.icddrb.org:8080/eMIS_69/");
-        put(DataSets.TANGAIL_TEXT,"http://emis.icddrb.org:8080/eMIS_93/");
-        put(DataSets.MAULVIBAZAR_TEXT,"http://emis.icddrb.org:8080/eMIS_58/");
-        put(DataSets.MADARIPUR_TEXT,"http://emis.icddrb.org:8080/eMIS_54/");
-        put(DataSets.JHENAIDAH_TEXT,"http://emis.icddrb.org:8080/eMIS_44/");
-        put(DataSets.RANGPUR_TEXT,"http://emis.icddrb.org:8080/eMIS_85/");
-        put(DataSets.KURIGRAM_TEXT,"http://emis.icddrb.org:8080/eMIS_49/");
-        put(DataSets.LALMONIRHAT_TEXT,"http://114.130.119.128:8080/eMIS_52/");
-        put(DataSets.NILPHAMARI_TEXT,"http://114.130.119.74:8080/eMIS_73/");//BCC server
-        put(DataSets.PANCHAGARH_TEXT,"http://114.130.119.128:8080/eMIS_77/");
-        put(DataSets.THAKURGAON_TEXT,"http://emis.icddrb.org:8080/eMIS_94/");
-        put(DataSets.COXS_BAZAR_TEXT,"http://114.130.119.74:8080/eMIS_22/");
-        put(DataSets.DINAJPUR_TEXT,"http://emis.icddrb.org:8080/eMIS_27/");
-        put(DataSets.GAIBANDHA_TEXT,"http://114.130.119.72:8080/eMIS_32/");//BCC server
-        put(DataSets.RAJSHAHI_TEXT,"http://emis.icddrb.org:8080/eMIS_81/");
-        put(DataSets.SYLHET_TEXT,"http://119.148.43.42:8080/eMIS_91/");
-        put(DataSets.BRAHMANBARIA_TEXT,"http://119.148.43.42:8080/eMIS_12/");
-        put(DataSets.MANIKGANJ_TEXT,"http://119.148.43.41:8080/eMIS_56/");
-        put(DataSets.CHANDPUR_TEXT,"http://119.148.43.41:8080/eMIS_13/");
-        put(DataSets.KUSHTIA_TEXT,"http://119.148.6.164:8080/eMIS_50/");
-        put(DataSets.FARIDPUR_TEXT,"http://119.148.6.164:8080/eMIS_29/");
-        put(DataSets.FENI_TEXT,"http://119.148.6.164:8080/eMIS_30/");
-        put(DataSets.CUMILLA_TEXT,"http://119.148.43.45:8080/eMIS_19/");
-        put(DataSets.SUNAMGANJ_TEXT,"http://119.148.6.165:8080/eMIS_90/");
-        put(DataSets.BANDARBAN_TEXT,"http://119.148.6.166:8080/eMIS_03/");
-        put(DataSets.KHAGRACHARI_TEXT,"http://119.148.6.166:8080/eMIS_46/");
-        put(DataSets.RANGAMATI_TEXT,"http://119.148.6.168:8080/eMIS_84/");
-        put(DataSets.BARGUNA_TEXT,"http://114.130.119.72:8080/eMIS_04/");//BCC server
-        put(DataSets.GOPALGANJ_TEXT,"http://114.130.119.74:8080/eMIS_35/");//BCC server
-        put(DataSets.CHATTOGRAM_TEXT,"http://114.130.119.72:8080/eMIS_15/");//BCC server
+        put(DataSets.HABIGANJ_TEXT,"http://mamoni.net:8080/eMIS/");
+        put(DataSets.LAKSHMIPUR_TEXT,"http://119.148.43.41:8080/eMIS/");
+        put(DataSets.JHALOKATHI_TEXT,"http://119.148.43.42:8080/eMIS/");
+        put(DataSets.NOAKHALI_TEXT,"http://119.148.43.43:8080/eMIS/");
+        put(DataSets.NATORE_TEXT,"http://114.130.119.75:8080/eMIS/");
+        put(DataSets.TANGAIL_TEXT,"http://114.130.119.75:8080/eMIS/");
+        put(DataSets.MAULVIBAZAR_TEXT,"http://114.130.119.76:8080/eMIS/");
+        put(DataSets.MADARIPUR_TEXT,"http://114.130.119.76:8080/eMIS/");
+        put(DataSets.JHENAIDAH_TEXT,"http://114.130.119.132:8080/eMIS/");
+        put(DataSets.RANGPUR_TEXT,"http://114.130.119.75:8080/eMIS/");
+        put(DataSets.KURIGRAM_TEXT,"http://114.130.119.76:8080/eMIS/");
+        put(DataSets.LALMONIRHAT_TEXT,"http://114.130.119.128:8080/eMIS/");
+        put(DataSets.NILPHAMARI_TEXT,"http://114.130.119.74:8080/eMIS/");//BCC server
+        put(DataSets.PANCHAGARH_TEXT,"http://114.130.119.128:8080/eMIS/");
+        put(DataSets.THAKURGAON_TEXT,"http://114.130.119.75:8080/eMIS/");
+        put(DataSets.COXS_BAZAR_TEXT,"http://114.130.119.74:8080/eMIS/");
+        put(DataSets.DINAJPUR_TEXT,"http://114.130.119.132:8080/eMIS/");
+        put(DataSets.GAIBANDHA_TEXT,"http://114.130.119.72:8080/eMIS/");//BCC server
+        put(DataSets.RAJSHAHI_TEXT,"http://114.130.119.132:8080/eMIS/");
+        put(DataSets.SYLHET_TEXT,"http://119.148.43.42:8080/eMIS/");
+        put(DataSets.BRAHMANBARIA_TEXT,"http://119.148.43.42:8080/eMIS/");
+        put(DataSets.MANIKGANJ_TEXT,"http://119.148.43.41:8080/eMIS/");
+        put(DataSets.CHANDPUR_TEXT,"http://119.148.43.41:8080/eMIS/");
+        put(DataSets.KUSHTIA_TEXT,"http://119.148.6.164:8080/eMIS/");
+        put(DataSets.FARIDPUR_TEXT,"http://119.148.6.164:8080/eMIS/");
+        put(DataSets.FENI_TEXT,"http://119.148.6.164:8080/eMIS/");
+        put(DataSets.CUMILLA_TEXT,"http://119.148.43.45:8080/eMIS/");
+        put(DataSets.SUNAMGANJ_TEXT,"http://119.148.6.165:8080/eMIS/");
+        put(DataSets.BANDARBAN_TEXT,"http://119.148.6.166:8080/eMIS/");
+        put(DataSets.KHAGRACHARI_TEXT,"http://119.148.6.166:8080/eMIS/");
+        put(DataSets.RANGAMATI_TEXT,"http://119.148.6.168:8080/eMIS/");
+        put(DataSets.BARGUNA_TEXT,"http://114.130.119.72:8080/eMIS/");//BCC server
+        put(DataSets.GOPALGANJ_TEXT,"http://114.130.119.74:8080/eMIS/");//BCC server
+        put(DataSets.CHATTOGRAM_TEXT,"http://114.130.119.72:8080/eMIS/");//BCC server
     }};
 }
