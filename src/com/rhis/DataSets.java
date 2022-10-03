@@ -38,6 +38,10 @@ public class DataSets {
     public static final String BARGUNA_TEXT = "বরগুনা";
     public static final String GOPALGANJ_TEXT = "গোপালগঞ্জ";
     public static final String CHATTOGRAM_TEXT = "চট্টগ্রাম";
+    public static final String KHULNA_TEXT = "খুলনা";
+    public static final String KISHOREGONJ_TEXT = "কিশোরগঞ্জ";
+    public static final String BHOLA_TEXT = "ভোলা";
+    public static final String NARAIL_TEXT = "নড়াইল";
 
     //TODO: Don't change the previous order during adding a new district into the list
     public static final String[] disitrictArray = {
@@ -46,7 +50,7 @@ public class DataSets {
             NILPHAMARI_TEXT, PANCHAGARH_TEXT, THAKURGAON_TEXT, COXS_BAZAR_TEXT, DINAJPUR_TEXT, GAIBANDHA_TEXT,
             RAJSHAHI_TEXT, BRAHMANBARIA_TEXT, MANIKGANJ_TEXT, CHANDPUR_TEXT, KUSHTIA_TEXT, FARIDPUR_TEXT, FENI_TEXT,
             CUMILLA_TEXT, SUNAMGANJ_TEXT, BANDARBAN_TEXT, KHAGRACHARI_TEXT, RANGAMATI_TEXT, BARGUNA_TEXT,
-            GOPALGANJ_TEXT, CHATTOGRAM_TEXT};
+            GOPALGANJ_TEXT, CHATTOGRAM_TEXT, KHULNA_TEXT, KISHOREGONJ_TEXT, BHOLA_TEXT, NARAIL_TEXT};
 
 
     public static final Map<String, Integer> districtMappingWithCode = Map.ofEntries(
@@ -83,7 +87,13 @@ public class DataSets {
             Map.entry(RANGAMATI_TEXT, 84),
             Map.entry(BARGUNA_TEXT, 4),
             Map.entry(GOPALGANJ_TEXT, 35),
-            Map.entry(CHATTOGRAM_TEXT, 15));
+            Map.entry(CHATTOGRAM_TEXT, 15),
+
+            Map.entry(KHULNA_TEXT, 47),
+            Map.entry(KISHOREGONJ_TEXT, 48),
+            Map.entry(BHOLA_TEXT, 9),
+            Map.entry(NARAIL_TEXT, 65)
+    );
 
     public static final HashMap<String, String> serverEndpoints = new HashMap<>() {{
         put(DataSets.HABIGANJ_TEXT,"http://mamoni.net:8080/eMIS/");
@@ -120,5 +130,10 @@ public class DataSets {
         put(DataSets.BARGUNA_TEXT,"http://114.130.119.72:8080/eMIS/");//BCC server
         put(DataSets.GOPALGANJ_TEXT,"http://114.130.119.74:8080/eMIS/");//BCC server
         put(DataSets.CHATTOGRAM_TEXT,"http://114.130.119.72:8080/eMIS/");//BCC server
+
+        put(DataSets.KHULNA_TEXT,"http://43.229.15.154:8080/eMIS/");
+        put(DataSets.KISHOREGONJ_TEXT,"http://43.229.15.154:8080/eMIS/");
+        put(DataSets.BHOLA_TEXT,"http://43.229.15.154:8080/eMIS/");
+        put(DataSets.NARAIL_TEXT,"http://43.229.15.154:8080/eMIS/");
     }};
 }
